@@ -53,7 +53,6 @@ fun HomeScreen(
     ) {
 
       items(vm.adbCommandList) { adbCommand ->
-        logd("render: $adbCommand")
         Card(modifier = Modifier
           .padding(bottom = 10.dp)
           .clickable {
