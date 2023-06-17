@@ -9,4 +9,5 @@ playstore
   screenshots
 
 
-privacypolicy
+screenshots
+shell pm clear org.videolan.vlc
