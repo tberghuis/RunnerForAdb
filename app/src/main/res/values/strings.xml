@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Runner for ADB</string>
+
+    <string name="buffer_size_key">buffer_size</string>
+    <string name="auto_shell_key">auto_shell</string>
+    <string name="startup_command_key">startup_command</string>
+</resources>

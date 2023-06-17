@@ -1,0 +1,6 @@
+should i use interface with delegate instead of Vmc composition for reuse?
+next time try write XxxVmc as an interface
+functions
+  fun someFun() = someFun(this) // this: XxxVmc, someFun top level for reuse
+
+

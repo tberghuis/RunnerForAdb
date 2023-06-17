@@ -1,0 +1,2 @@
+test run swipit stealth
+vlc clear watch history

@@ -1,0 +1,15 @@
+
+ explain in readme and playstore
+  sh -c "connect; command"
+
+
+
+mention in description,
+  to run adb commands against localhost (phone)
+  use LADB or adb from PC to issue command
+    adb tcpip 5555
+
+
+copy marketing from LABD
+and https://play.google.com/store/apps/details?id=com.cgutman.androidremotedebugger
+

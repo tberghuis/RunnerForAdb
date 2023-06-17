@@ -1,0 +1,13 @@
+fresh repo
+readme.md
+r/androiddev
+
+clean cull code
+cull inbox.txt
+
+playstore
+  description
+  screenshots
+
+
+privacypolicy

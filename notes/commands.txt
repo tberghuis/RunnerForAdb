@@ -1,0 +1,41 @@
+adb devices
+
+adb connect poco
+
+adb -s 192.168.0.59 shell input text hello
+adb -s 192.168.0.183 shell input text helloworld
+adb -s poco shell input text hello
+
+poco = 192.168.0.59 or 192.168.0.183
+
+adb disconnect poco
+
+
+####################
+
+adb devices
+
+adb -s emulator-5554 shell
+run-as dev.tberghuis.adbrunner
+cd databases
+
+sqlite3 data.db
+.tables
+select * from adbcommand;
+
+
+##################3
+
+adb devices
+
+adb -s R52M90V7ZZD shell
+adb -s R52M90V7ZZD tcpip 5555
+
+ifconfig
+192.168.137.85
+
+adb -s emulator-5554 tcpip 5555
+
+adb -s emulator-5554 shell
+su
+ifconfig

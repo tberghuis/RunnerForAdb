@@ -1,0 +1,17 @@
+tasker integration
+  market r/tasker
+
+package f-droid
+
+fingerprint login
+
+sort list home screen
+
+move strings to R (resources)
+
+
+ command: ping
+  autoscroll output
+
+read LABD source
+
