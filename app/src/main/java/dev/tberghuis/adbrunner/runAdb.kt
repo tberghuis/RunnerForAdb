@@ -4,7 +4,7 @@ import android.content.Context
 
 // doitwrong
 // if i need result emit custom type,[line, end success, end fail]
-fun runAdbTodoRename(appContext: Context, host: String, command: String): Process {
+fun runAdb(appContext: Context, host: String, command: String): Process {
   val adbPath = "${appContext.applicationInfo.nativeLibraryDir}/libadb.so"
   val commandList = listOf(
     "sh",

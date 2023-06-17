@@ -2,7 +2,7 @@ package dev.tberghuis.adbrunner.ui
 
 import android.app.Application
 import androidx.compose.runtime.mutableStateOf
-import dev.tberghuis.adbrunner.runAdbTodoRename
+import dev.tberghuis.adbrunner.runAdb
 import dev.tberghuis.adbrunner.utils.logd
 import java.io.InterruptedIOException
 import kotlinx.coroutines.CoroutineScope
@@ -21,7 +21,7 @@ class RunVmc(private val scope: CoroutineScope, private val application: Applica
   fun runAdbCommand() {
     scope.launch {
       adbCommandOutput.value = ""
-      adbProcess = runAdbTodoRename(application, fieldState.host, fieldState.adbCommandString)
+      adbProcess = runAdb(application, fieldState.host, fieldState.adbCommandString)
       adbProcess!!.inputStream.bufferedReader().lineSequence().asFlow().flowOn(IO).catch { e ->
         logd("caught $e")
         // InterruptedIOException when destroyAdbProcess()

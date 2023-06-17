@@ -24,7 +24,7 @@ class RunAdbWorker(private val context: Context, params: WorkerParameters) :
       return Result.failure()
     }
 
-    val adbProcess = runAdbTodoRename(context.applicationContext, host, command)
+    val adbProcess = runAdb(context.applicationContext, host, command)
 
     // does not work
 //    val adbOutput = adbProcess.inputStream.bufferedReader().use(BufferedReader::readText)
