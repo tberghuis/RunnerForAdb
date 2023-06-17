@@ -1,5 +1,6 @@
 readme.md
   play store link
   screenshot
+  libadb.so binary copied from LADB
 
 r/androiddev
