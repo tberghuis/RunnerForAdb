@@ -13,6 +13,8 @@ mention in description,
 copy marketing from LABD
 and https://play.google.com/store/apps/details?id=com.cgutman.androidremotedebugger
 
+#######################
+
 short description:
 Save and run ADB commands from your android device
 
