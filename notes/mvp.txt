@@ -1,13 +1,5 @@
 readme.md
+  play store link
+  screenshot
+
 r/androiddev
-
-clean cull code
-cull inbox.txt
-
-playstore
-  description
-  screenshots
-
-
-screenshots
-shell pm clear org.videolan.vlc
