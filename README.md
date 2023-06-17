@@ -10,7 +10,9 @@ Device that you wish to run ADB commands against should have wifi debugging enab
 
 To make your targeted device accept ADB commands you may need to run:
 
-  adb tcpip 5555
+```
+adb tcpip 5555
+```
 
 You will need to do this using ADB on PC or another app such as LADB.
 
@@ -35,4 +37,4 @@ The `libadb.so` file is copied from the app LADB https://github.com/tytydraco/LA
 
 ## Screenshots
 
-<img alt='screenshot home' src='https://github.com/tberghuis/RunnerForAdb/raw/master/assets/Screenshot_home.png' width="200"/> <img alt='screenshot home' src='https://github.com/tberghuis/RunnerForAdb/raw/master/assets/Screenshot_clear-cache.png' width="200"/> 
+<img alt='screenshot home' src='https://github.com/tberghuis/RunnerForAdb/raw/main/assets/Screenshot_home.png' width="200"/> <img alt='screenshot home' src='https://github.com/tberghuis/RunnerForAdb/raw/main/assets/Screenshot_clear-cache.png' width="200"/> 
