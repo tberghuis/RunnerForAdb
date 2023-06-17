@@ -29,4 +29,20 @@ To make your targeted device accept ADB commands you may need to run:
 
 You will need to do this using ADB on PC or another app such as LADB.
 
+You can also run ADB command from other apps by sending broadcast with an Intent.
+
+Example code:
+
+  val intent = Intent()
+  intent.action = "dev.tberghuis.adbrunner.RUN_ADB"
+  intent.putExtra("HOST", "192.168.0.99")
+  intent.putExtra("ADB_COMMAND", "shell echo hello world")
+  intent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES)
+  intent.component =
+    ComponentName("dev.tberghuis.adbrunner", "dev.tberghuis.adbrunner.AdbRunnerBroadcastReceiver")
+  appContext.sendBroadcast(intent)
+
+
 Source code: https://github.com/tberghuis/RunnerForAdb
+
+
