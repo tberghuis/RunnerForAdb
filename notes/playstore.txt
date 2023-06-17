@@ -13,3 +13,13 @@ mention in description,
 copy marketing from LABD
 and https://play.google.com/store/apps/details?id=com.cgutman.androidremotedebugger
 
+short description:
+Save and run ADB commands from your android device
+
+Full description:
+Runner for ADB lets you save and run ADB commands from your android device.
+
+Device that you wish to run ADB commands against should have wifi debugging enabled.
+To make your targeted device accept ADB commands you may need to run:
+  adb tcpip 5555
+You will need to do this using ADB on PC or another app such as LADB.
