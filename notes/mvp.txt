@@ -1,4 +1,3 @@
-fresh repo
 readme.md
 r/androiddev
 
