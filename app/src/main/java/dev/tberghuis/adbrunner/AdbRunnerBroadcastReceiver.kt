@@ -37,4 +37,3 @@ class AdbRunnerBroadcastReceiver : BroadcastReceiver() {
     WorkManager.getInstance(context).enqueue(worker)
   }
 }
-
