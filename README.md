@@ -1,4 +1,4 @@
-# Runner for ABD
+# Runner for ADB
 
 Save and run ADB commands from your android device
 
